@@ -1,0 +1,227 @@
+body{
+    background-color:white;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    color:black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+}
+.navbar ul {
+    display: flex;
+    justify-content:space-evenly;
+    text-align: right;
+}
+.navbar ul li {
+    list-style-type: none;
+    margin: 0 15px;
+    font-size: 20px;
+    display: flex;
+    text-align: right;
+}
+.nav-logo{
+    font-weight: 600;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 20px;
+}
+.nav-options{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.navbar ul li a:hover {
+    color: green;
+    font-size: 1.1rem;
+    font-weight: 550;
+}
+button a:hover{
+    background-color: rgb(0, 84, 0);
+}
+
+/*--------------------------------------------main section--------------------------------------------*/
+.main-sec{
+    display: flex;
+    background-color: rgb(220, 220, 220);
+}
+.left{
+    width: 60%;
+    margin-left: 100px;
+    margin-right: 40px;
+    font-size: 65px;
+    font-weight: 600;
+    align-content: center;
+    justify-content: center;
+    }
+    .fline{
+        color:rgb(35, 35, 35);
+    }
+    .sline{
+        color: green;
+    }
+    .btn{
+        background-color: green;
+        border: 2px;
+        border-radius: 5px;
+        color: white;
+        padding:10px 30px;
+        font-size: 25px;    
+    }
+    .right{
+        width: 40%;
+        margin-top: 40px;
+        margin-right: 50px;
+    }
+    .right img {
+        width: 90%;
+    }
+
+/*--------------------------------------------First section--------------------------------------------*/
+.first-sec{
+    margin-top: 40px;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    color:rgb(35, 35, 35);
+}
+.para1{
+    font-size: 20px; 
+    font-weight: 400;
+    color: grey;
+}   
+
+/*--------------------------------------------Second section--------------------------------------------*/
+.second-sec{
+    margin-top: 30px;    
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    border:2px solid rgb(172, 172, 172);
+    border-radius: 10px;
+    height:300px;
+    width: 25%;
+    align-content: center;
+    justify-content: center;
+}
+.left-sec img{
+   height: 80px;
+}
+.middle-sec img{
+    height: 80px;
+ }
+ .right-sec img{
+    height: 80px;
+ }
+.content{
+    text-align: center;
+}
+.box-img{
+    align-content: center;
+    margin-left: 140px;
+}
+
+/*--------------------------------------------third section--------------------------------------------*/
+.third-sec{
+    display: flex;
+}
+.left-side{
+    width: 40%;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.left-side img {
+    width: 80%;
+}
+.right-side{
+    width: 60%;
+    margin-right: 40px;
+    font-size: 45px;
+    font-weight: 600;
+    align-content: center;
+    justify-content: center;
+}
+
+/*--------------------------------------------fourth section--------------------------------------------*/
+.fourth-sec{
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    color:rgb(35, 35, 35);
+}
+.para2{
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    font-size: 20px;
+    font-weight: 400;
+    color: grey;
+}
+
+/*--------------------------------------------fifth section--------------------------------------------*/
+.fifth-sec{
+    margin-top: 30px;    
+    display: flex;
+    justify-content: space-evenly;
+}
+.box1{
+    height:350px;
+    width: 30%;
+    align-content: center;
+    justify-content: center;
+}
+.box-img2 img{
+    width:100%;
+    height: 100%;
+}
+
+/*--------------------------------------------sixth section--------------------------------------------*/
+.sixth-sec{
+    display: flex;
+    background-color: rgb(35, 35, 35);
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+.sec1{
+    margin: 100px;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin-bottom: 50px;
+}
+.icons{
+    color: grey;
+    font-size: 30px;
+}
+.sec2{
+    margin-left: 30px;
+    margin-top: 30px;
+    align-items: center;
+    width: 15%;
+    margin-bottom: 50px;
+}
+.sec2 ul li{
+    list-style-type: none;
+    margin: 15px 0;
+    color: grey;
+}
+.sec3{
+    margin-left: 30px;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin-bottom: 50px;
+}
+input[type="text"]
+		{
+            margin-top: 20px;
+			padding:5px 10px;
+			font-size: 20px;
+			border:2px;
+			border-radius:5px;
+        }
